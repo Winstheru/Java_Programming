@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args){
+        Scanner userInput = new Scanner(System.in);
+        int theNumber;
+        System.out.print("Insert the number : ");
+        theNumber = userInput.nextInt();
+        System.out.println("Sum of the Digits : " + sumThem(theNumber));
+
+
+    }
+
+    private static int sumThem(int theNumber){
+        int result = 0;
+        while(p != 0){
+            result += theNumber % 10;
+            theNumber /= 10;
+        }
+        return result;
+    }
+}
