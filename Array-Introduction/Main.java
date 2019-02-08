@@ -1,6 +1,6 @@
 package com.tutorial;
 import java.lang.reflect.Array;
-import java.util.Arrays; //salah satu fungsi library ini utk mengubah nilai jd string supaya gampang output isi stringnya
+import java.util.Arrays; //salah satu fungsi library ini utk mengubah array jd string supaya gampang output isi arraynya
 public class Main {
     public static void main(String[] args) {
         //assignment
